@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Regístrate</h1>
+    </head>
+
+    <body>
+        <p><input type="text" id="nombre"></p>
+        <p> Género:
+            <select id=genero>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+        </p>
+        <button type="button" onclick="saludar(document.getElementById('nombre').value, 
+        document.getElementById('genero').value);">Saludar</button>
+
+        <script src="index.js"></script>
+    </body>
+</html>

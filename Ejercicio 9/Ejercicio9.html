@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <h1>REVERTIDOR DE TEXTO</h1>
+        </head>
+            
+        <body>
+            <p>Texto: <input type="text" id="texto"></p>
+            <button type="button" onclick="reversa(document.getElementById('texto').value);">Aceptar</button>
+            <script>
+                const reversa=(texto)=> {
+                    alert(texto.split("").reverse().join(""));
+                }
+            </script>
+        </body>
+    </html>
