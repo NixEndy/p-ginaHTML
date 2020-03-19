@@ -1,0 +1,59 @@
+table.center{
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+body{
+    background: #c59f58;
+}
+
+.img-style{
+    cursor: pointer;
+    margin-left: 25%;
+    width: 140px;
+    height: 230px;
+    margin-top: auto;
+}
+
+.header{
+    width: 15px;
+    height: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    font-style: oblique;
+}
+
+.footer{
+    width: 80px;
+    height: 7px;
+    font-size: 14px;
+    background-color: rgba(145, 185, 93, 0.911);
+    text-align: left;
+    font-style: oblique;
+}
+
+.screen {
+        font-family: Calibri,Arial;
+        font-weight: 200;
+        font-size: 14px;
+        width: 200px;
+        height: 25px;
+        color:black;
+        letter-spacing: 1px;
+}
